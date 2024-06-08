@@ -1,0 +1,53 @@
+ex 1
+x = "Hello World"
+print(len(x))
+
+ex 2
+txt = "Hello World"
+x = txt[0]
+
+ex 3
+txt = "Hello World"
+x = txt[2:5]
+
+ex 4
+txt = " Hello World "
+x = txt.strip()
+
+strip(): Удаляет пробелы с начала и конца строки.
+
+ex 5
+txt = "Hello World"
+txt = txt.upper()
+
+Метод upper() вызывается на строке txt, преобразуя все буквенные символы в верхний регистр.
+
+ex 6
+txt = "Hello World"
+txt = txt.lower()
+
+ex 7
+txt = "Hello World"
+txt = txt.
+replace( "H","J" )
+
+ex 8
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+Метод format() позволяет вставлять несколько значений, если в строке несколько плейсхолдеров {}. В этом случае значения передаются в format() через запятую.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
