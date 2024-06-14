@@ -1,0 +1,50 @@
+ex 1 
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get("model"))
+Метод get() полезен, когда ты хочешь получить значение ключа, но не уверен, существует ли такой ключ в словаре, и не хочешь вызывать ошибку.
+
+ex 2  
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["year"] = 2020
+
+ex 3 
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["color"] ="red"
+
+ex 4 
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model")
+Метод pop("model") удаляет элемент словаря, связанный с ключом "model", и возвращает его значение ("Mustang" в данном случае).
+
+ex 5 
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.clear()
+
+
+
+
+
+
+
+
+
