@@ -1,4 +1,4 @@
-#ex 1 Create a generator that generates the squares of numbers up to some number N.
+#ex 1 Генерация квадратов чисел до N
 a = int(input())
 
 def squares(a):
@@ -9,7 +9,7 @@ def squares(a):
 for i in squares(a):
     print (i)
   
-#ex 2 Write a program using generator to print the even numbers between 0 and n in comma separated form where n is input from console.
+#ex 2 Генерация четных чисел от 0 до n
   a = int(input())
 
 for i in range(0, a + 1, 2):
@@ -18,7 +18,7 @@ for i in range(0, a + 1, 2):
     else:
         print(i)
 
-#ex 3 Define a function with a generator which can iterate the numbers, which are divisible by 3 and 4, between a given range 0 and n.
+#ex 3 Генерация чисел, которые делятся на 3 и 4 в диапазоне от 0 до n
       a = int(input())
 
 def div4and3(a):
@@ -29,7 +29,7 @@ def div4and3(a):
 for i in div4and3(a):
     print(i)
 
-#ex 4 Implement a generator called squares to yield the square of all numbers from (a) to (b). Test it with a "for" loop and print each of the yielded values.
+#ex 4 Генерация квадратов чисел от a до b
 a = int(input())
 b = int(input())
 
